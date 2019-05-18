@@ -31,12 +31,12 @@ The dataset contains 71044 rows and 25 columns
 
 ***
 
-# Workflow"
+# Workflow:
 
 ![alt text](https://github.com/shreyaswankhede/Sentiment-Analysis-on-Online-Product-Reviews/blob/master/s2.png
  "Correlation between features")
 
-<h2> Steps </h2>
+<h2> Steps: </h2>
 <br>1. Data loading.
 <br>2. Data Preprocessing
 
@@ -50,7 +50,7 @@ The dataset contains 71044 rows and 25 columns
 
 ***
 
-# WordCloud
+# WordCloud:
 
 ![alt text](https://github.com/shreyaswankhede/Sentiment-Analysis-on-Online-Product-Reviews/blob/master/s4.png
  "Correlation between features")
