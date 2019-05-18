@@ -64,9 +64,17 @@ The dataset contains 71044 rows and 25 columns
 * Splitting the data into Train and Test set (70-30).
 
 
-<br> 1. Bag Of Words
-<br> 2. TF-IDF
-<br> 3. Word2Vec
+<br> 1. TF-IDF
+
+1.Count how many times does a word occur in each message (Known as term frequency)
+2.Weigh the counts, so that frequent tokens get lower weight (inverse document frequency)
+
+<br>TF(t) = (Number of times term t appears in a document) / (Total number of terms in the document).
+<br>IDF(t) = log_e(Total number of documents / Number of documents with term t in it).
+
+* Example: Consider a document containing 100 words wherein the word dog appears 3 times. The term frequency for dog is (3 / 100) = 0.03. Assume total of 10 million documents and the word dog appears in one thousand of these. Then, the inverse document frequency is calculated as log(10,000,000 / 1,000) = 4. 
+
+* Thus, the Tf-idf weight is the product of these quantities: 0.03 * 4 = 0.12.
 
 ***
 
